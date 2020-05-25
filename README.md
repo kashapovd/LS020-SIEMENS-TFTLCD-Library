@@ -1,0 +1,2 @@
+# LS020-SIEMENS-LCDTFT-Library
+arduino library for LS020 TFT 176x132 SPI LCD
