@@ -11,15 +11,15 @@
  *
  *  LS020:
  *      - resolution: 176x132
- *      - on-chip display data RAM (estimated 50kb)
+ *      - on-chip display data RAM (46 kilobytes)
  *      - pinout:
  *                                _   _   _   _   _   _   _ 
  *          1 LED-                |  |                   |  |
  *          2 LED+ (9..12v)       |  |    [backside]     |  |
  *          3 NC                  |  |___________________|  | 
  *          4 GND                 |   ___________________   |
- *          5 +2.9v (3.3v nice)   |  |                   |  |
- *                        work    |  |    LS020B8UD05    |  |
+ *          5 +2.9v (3.3v nice    |  |                   |  |
+ *                       works)   |  |    LS020B8UD05    |  |
  *          6 MOSI                |  |   04G002601A  Q   |  |
  *          7 SCL                 |  |___________________|  |
  *          8 CS                  |     _ _ _ _ _ _ _ _ _ _ |
@@ -117,6 +117,5 @@ public:
                     fillRect(x, y, a, a, color); 
     }
 };
-
 
 #endif
