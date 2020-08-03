@@ -1,5 +1,6 @@
 /***************************************************
-  This is example for LS020 LCD
+  This is example for LS020 LCD using SPI to 
+  communicate.
  ****************************************************/
 
 #include "Adafruit_GFX.h"
