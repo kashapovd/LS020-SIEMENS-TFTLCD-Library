@@ -30,12 +30,13 @@ This is an arduino library for TFT LCD LS020 from Siemens 65 series. This librar
 
 LS020 library depends by Adafruit GFX library and you must install Adafruit GFX for your IDE.
 
-If you use Arduino IDE just add LS020 and Adafruit GFX libraries via "Sketch -> Include Library -> Add .ZIP Library" in Arduino IDE.\
+If you use Arduino IDE just add this, Adafruit GFX and Adafruit BusIO libraries via "Sketch -> Include Library -> Add .ZIP Library" in Arduino IDE.\
 If you use Platformio IDE just add the following text in your platformio.ini:
 
     lib_deps=
         https://github.com/kashapovd/LS020-SIEMENS-TFTLCD-Library
         https://github.com/adafruit/Adafruit-GFX-Library
+        https://github.com/adafruit/Adafruit_BusIO
 
 ## Demonstration ([video](https://youtu.be/tWlndlFdpFo))
 ![PCF8814 LCD TEST](demo/demo.gif)
