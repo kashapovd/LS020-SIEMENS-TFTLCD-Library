@@ -38,7 +38,7 @@ If you use Platformio IDE just add the following text in your platformio.ini:
         https://github.com/adafruit/Adafruit-GFX-Library
         https://github.com/adafruit/Adafruit_BusIO
 
-## Demonstration ([video](https://youtu.be/tWlndlFdpFo))
+## Demonstration ([video](https://youtu.be/rdE-_EuR0MM))
 ![PCF8814 LCD TEST](demo/demo.gif)
 
 Kashapov Yaroslav, 2020\
